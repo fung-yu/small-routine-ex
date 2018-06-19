@@ -1,0 +1,87 @@
+.modal-include-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.modal-include-image .modal-mask {
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.modal-include-image .modal-content {
+  position: absolute;
+  bottom: 406rpx;
+  left: 5%;
+  width: 676rpx;
+  z-index: 1;
+  height: 420rpx;
+  background-color: white;
+  border-radius: 30rpx;
+}
+
+.cameraIpxContainer .modal-include-image .modal-content {
+  bottom: 540rpx;
+}
+
+.modal-include-image .whiteBg {
+  position: absolute;
+  bottom: 400rpx;
+  left: 5%;
+  width: 676rpx;
+  background-color: white;
+  border-radius: 30rpx;
+  height: 410rpx;
+  z-index: 0;
+}
+
+.modal-include-image .modal-header {
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  text-align: center;
+}
+
+.modal-include-image .modal-body {
+  text-align: center;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-bottom: 10rpx;
+}
+
+.modal-include-image .modal-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  border-top: solid 2rpx #ccc;
+  color: #007aff;
+}
+
+.modal-include-image .modal-btn {
+  /* display: inline-block; */
+  flex-grow: 1;
+  text-align: center;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+
+.modal-include-image .modal-btn.modal-cancel {
+  border-right: solid 1px #ccc;
+}
+
+.modal-image {
+  width: 300rpx;
+  height: 300rpx;
+  position: absolute;
+  top: -150rpx;
+  left: 188rpx;
+}
+.desc-modal-body {
+  width: 100%;
+  white-space: pre-wrap;
+  margin-top: 150rpx;
+  margin-bottom: 33rpx;
+}

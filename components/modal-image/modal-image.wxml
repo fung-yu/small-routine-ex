@@ -1,0 +1,14 @@
+<view class='modal-include-image' hidden='{{modal.isShow?false:true}}'>
+    <view class='modal-mask'></view>
+    <view class='modal-content'>
+      <image class='modal-image' src='{{modal.src}}' mode='aspectFill'></image>
+      <view class='modal-header'>{{modal.title}}</view>
+      <view class='modal-body'>
+        <view class='desc-modal-body'>{{modal.desc}}</view>
+      </view>
+      <view class='modal-footer'>
+        <view class='modal-btn modal-cancel' data-btntype="cancel" bindtap='cancelHandle'>{{modal.cancel}}</view>
+        <view class='modal-btn modal-ok' data-btntype="ok" bindtap='okHandle'>{{modal.ok}}</view>
+      </view>
+    </view>
+</view>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "modalImage": "../../components/modal-image/modal-image"
+  }
+}
