@@ -1,0 +1,18 @@
+<view class='modal-include-button' hidden='{{modal.isShow?false:true}}'>
+    <view class='modal-mask'></view>
+    <view class='modal-content'>
+      <view class='modal-header'>{{modal.title}}</view>
+      <view class='modal-body'>
+          <view class='ul'>
+              <view class='li'>朋友推荐</view>
+              <view class='li'>新闻媒体</view>
+              <view class='li'>线下活动</view>
+              <view class='li'>其他</view>
+          </view>
+      </view>
+      <view class='modal-footer'>
+        <view class='modal-btn modal-cancel' data-btntype="cancel" bindtap='cancelHandle'>{{modal.cancel}}</view>
+        <view class='modal-btn modal-ok' data-btntype="ok" bindtap='okHandle'>{{modal.ok}}</view>
+      </view>
+    </view>
+</view>

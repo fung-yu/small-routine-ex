@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "modalImage": "../../components/modal-image/modal-image",
-    "modalInput":"../../components/modal-input/modal-input"
+    "modalInput":"../../components/modal-input/modal-input",
+    "modalButton":"../../components/modal-button/modal-button"
   }
 }

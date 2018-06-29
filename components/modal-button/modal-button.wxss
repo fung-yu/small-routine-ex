@@ -1,0 +1,68 @@
+.modal-include-button {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.modal-include-button .modal-mask {
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.modal-include-button .modal-content {
+  position: absolute;
+  bottom: 406rpx;
+  left: 5%;
+  width: 676rpx;
+  z-index: 1;
+  height: 420rpx;
+  background-color: white;
+  border-radius: 30rpx;
+}
+
+.modal-include-button .modal-header {
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  text-align: center;
+}
+
+.modal-include-button .modal-body {
+  text-align: center;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-bottom: 10rpx;
+}
+
+.modal-include-button .modal-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  border-top: solid 2rpx #ccc;
+  /* color: #ccc; */
+}
+
+.modal-include-button .modal-btn {
+  flex-grow: 1;
+  text-align: center;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+
+.modal-include-button .modal-btn.modal-cancel {
+  border-right: solid 1px #ccc;
+}
+
+.ul .li{
+  float: left;
+  border: solid 1rpx #ccc;
+  margin-top: 50rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+  font-size: 24rpx;
+  padding: 10rpx 20rpx;
+  border-radius: 30rpx;
+}

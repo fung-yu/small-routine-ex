@@ -13,6 +13,16 @@ Page({
       ok: '使用照片'
     },
     inputModal:{
+     
+      isShow: false,
+      title: '添加标签',
+      desc: '',
+      // src: 'https://www.baidu.com/img/bd_logo1.png?qua=high',
+      cancel: '取消',
+      ok: '确定'
+    },
+    buttonModal: {
+
       isShow: false,
       title: '添加标签',
       desc: '',
@@ -33,6 +43,13 @@ Page({
     inputModal.isShow = true;
     this.setData({
       inputModal: inputModal
+    });
+  },
+  showButtonModalHandle:function(){
+    let buttonModal = this.data.buttonModal;
+    buttonModal.isShow = true;
+    this.setData({
+      buttonModal: buttonModal
     });
   },
   modalImageHandle: function (e) {

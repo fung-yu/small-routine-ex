@@ -2,6 +2,8 @@
 <view class="container">
   <view bindtap='showModalHandle'>带图片的弹窗</view>
   <view bindtap='showInputModalHandle'>带input的弹窗</view>
+  <view bindtap='showButtonModalHandle'>带button的弹窗</view>
   <modalImage modal="{{modal}}" bindModal="modalImageHandle">点击查看带图片的弹窗</modalImage> 
   <modalInput modal="{{inputModal}}" bindModal="modalImageHandle">点击查看带input的弹窗</modalInput>
+  <modalButton modal="{{buttonModal}}" bindModal="modalImageHandle">点击查看带input的弹窗</modalButton>
 </view>
