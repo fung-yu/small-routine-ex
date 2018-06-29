@@ -11,6 +11,14 @@ Page({
       src: 'https://www.baidu.com/img/bd_logo1.png?qua=high',
       cancel: '重新拍摄',
       ok: '使用照片'
+    },
+    inputModal:{
+      isShow: false,
+      title: '添加标签',
+      desc: '',
+      // src: 'https://www.baidu.com/img/bd_logo1.png?qua=high',
+      cancel: '取消',
+      ok: '确定'
     }
   },
   showModalHandle:function(){
@@ -18,6 +26,13 @@ Page({
     modal.isShow = true;
     this.setData({
       modal:modal
+    });
+  },
+  showInputModalHandle:function(){
+    let inputModal = this.data.inputModal;
+    inputModal.isShow = true;
+    this.setData({
+      inputModal: inputModal
     });
   },
   modalImageHandle: function (e) {

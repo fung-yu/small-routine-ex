@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "modalImage": "../../components/modal-image/modal-image"
+    "modalImage": "../../components/modal-image/modal-image",
+    "modalInput":"../../components/modal-input/modal-input"
   }
 }

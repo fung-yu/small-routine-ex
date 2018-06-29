@@ -1,0 +1,13 @@
+<view class='modal-include-input' hidden='{{modal.isShow?false:true}}'>
+    <view class='modal-mask'></view>
+    <view class='modal-content'>
+      <view class='modal-header'>{{modal.title}}</view>
+      <view class='modal-body'>
+          <input type='text' value='' placeholder='自定义标签（最长7个字）' class='modal-input'/>
+      </view>
+      <view class='modal-footer'>
+        <view class='modal-btn modal-cancel' data-btntype="cancel" bindtap='cancelHandle'>{{modal.cancel}}</view>
+        <view class='modal-btn modal-ok' data-btntype="ok" bindtap='okHandle'>{{modal.ok}}</view>
+      </view>
+    </view>
+</view>
