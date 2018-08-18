@@ -1,0 +1,48 @@
+.more-show-ing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.loadingImg{
+  width: 66rpx;
+  height: 66rpx;
+  /*加载中，动画 */
+  animation: Loading 3s linear infinite;
+}
+@keyframes Loading
+{
+	from {transform: rotate(0deg)}
+	to {transform: rotate(360deg)}
+}
+
+.more-show-ing .text{
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+
+
+/* no-more-info */
+.no-more-info{
+  position: relative;
+  width: 600rpx;
+  box-sizing: border-box;
+  padding: 34rpx;
+  font-size: 28rpx;
+  margin-bottom: 60rpx;
+}
+.no-more-info-line{
+  width: 100%;
+  height: 2rpx;
+  background-color: #f2f2f2;
+}
+.no-more-info-text{
+  position: absolute;
+  top: 20rpx;
+  left: 50%;
+  margin-left: -150rpx;
+  background-color: white;
+  width: 300rpx;
+  text-align: center;
+}

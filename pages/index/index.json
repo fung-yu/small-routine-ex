@@ -2,6 +2,7 @@
   "usingComponents": {
     "modalImage": "../../components/modal-image/modal-image",
     "modalInput":"../../components/modal-input/modal-input",
-    "modalButton":"../../components/modal-button/modal-button"
+    "modalButton":"../../components/modal-button/modal-button",
+    "load": "../../components/loading/loading"
   }
 }

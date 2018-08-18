@@ -1,0 +1,10 @@
+<view class='reach-bottom'>
+      <view hidden='{{isReachBottom?false:true}}' class='more-show-ing'>
+           <image class='loadingImg' src='{{loadingImg}}'></image>
+           <view class='text'>加载中</view>
+      </view>
+      <view hidden='{{hasMoreInfo?true:false}}' class='no-more-info'>
+            <view class='no-more-info-line'></view>
+            <text class='no-more-info-text'>暂无更多信息</text>
+      </view>
+</view>

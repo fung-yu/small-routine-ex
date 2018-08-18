@@ -29,7 +29,10 @@ Page({
       // src: 'https://www.baidu.com/img/bd_logo1.png?qua=high',
       cancel: '取消',
       ok: '确定'
-    }
+    },
+    isReachBottom: true,
+    hasMoreInfo: false
+
   },
   showModalHandle:function(){
     let modal = this.data.modal;
