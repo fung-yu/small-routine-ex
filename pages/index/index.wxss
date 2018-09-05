@@ -19,3 +19,13 @@
 .usermotto {
   margin-top: 200px;
 }
+
+/* share-control */
+.share-control{
+  width: 100%;
+}
+
+.share-image{
+  width: 40rpx;
+  height: 40rpx;
+}

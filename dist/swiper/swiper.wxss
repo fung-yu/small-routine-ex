@@ -1,0 +1,32 @@
+/* swiper-inner */
+.inner-swiper{
+  width: 750rpx;
+  height: 460rpx;
+}
+
+.inner-slide-image{
+  margin-top: 30rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  border-radius: 10rpx;
+  width: 670rpx;
+  height: 365rpx;
+}
+
+.inner-slide-image-active{
+  margin-top: 0rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  border-radius: 10rpx;
+  width: 670rpx;
+  height: 420rpx;
+}
+
+/* 改变swiper中三个点的位置 */
+.inner-swiper .wx-swiper-dots {
+  position: absolute;
+  bottom: -80rpx;
+  display: block;
+  height: 100rpx;
+  /* left: 600rpx; */
+}

@@ -1,0 +1,19 @@
+<swiper class='swiper' indicator-dots="{{true}}" autoplay="{{false}}">
+    <block wx:for="{{staticImage.imgUrls}}">
+      <swiper-item>
+        <block wx:if='{{index!=1}}'>
+            <image src="{{item}}" class="slide-image"/>
+        </block>
+        
+        <block wx:elif='{{index==1}}'>
+            <swiper class='inner-swiper' circular='{{true}}' previous-margin='30rpx' next-margin='30rpx' indicator-dots="{{true}}" autoplay="{{true}}" bindchange='imgChangeHandle'>
+                <block wx:for="{{staticImage.imgUrls}}">
+                  <swiper-item>
+                    <image src="{{item}}" class="{{currentPoint==index?'inner-slide-image inner-slide-image-active':'inner-slide-image'}}"/>
+                  </swiper-item>
+                </block>
+            </swiper>
+        </block>
+      </swiper-item>
+    </block>
+</swiper>
